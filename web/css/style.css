@@ -1,0 +1,101 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #B7D7D8; /* Hafif gri arkaplan */
+    color: #204E5F; /* Koyu metin rengi */
+}
+
+header {
+    background-color: red   ; /* Gece mavisi üst çubuk */
+    color: #79A7A8; /* Açık gri metin rengi */
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+   color: red;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Hafif gölgeleme */
+    background-color: #79A7A8; /* Açık gri arkaplan */
+    border-bottom-right-radius: 10px;
+   
+}
+.navbar-light .navbar-brand {
+    color:#204E5F;
+    font-size: 2rem;
+    
+}
+.navbar-light .navbar-brand:hover {
+    color: #FF8984;
+}
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: grey; /* Açık gri metin rengi */
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #204E5F; /* Daha açık gri renk hover durumunda */
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+    background-color: #79A7A8; /* Açık gri arkaplan */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölgeleme */
+    border-radius: 8px; /* Yuvarlatılmış köşeler */
+}
+
+.card {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #B7D7D8; /* Beyaz arkaplan */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Hafif gölgeleme */
+    border-radius: 8px; /* Yuvarlatılmış köşeler */
+}
+
+.btn-primary {
+    background-color: #e74c3c; /* Kırmızı renkli buton */
+    color: #fff; /* Beyaz metin rengi */
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #c0392b; /* Daha koyu kırmızı renk hover durumunda */
+}
+
+@media (max-width: 768px) {
+    nav a {
+        margin-right: 10px;
+    }
+}
+
+.bg-light {
+    background-color: #79A7A8 !important;
+    border-bottom: #204E5F 5px; /* Mavi arkaplan */
+}
+
+nav.bg-light {
+    background-color: #3498db; /* Mavi arkaplan */
+}
+/* ... diğer stil kodları ... */
+
+.navbar {
+    border-bottom: 2px solid #204E5F; /* 2 piksel kalınlığında ve gri renkte alt kenarlık */
+}
+
+
+/* ... diğer stil kodları ... */
+
+.nav.flex-column .nav-item {
+    border-bottom: 2px solid #204E5F; /* 1 piksel kalınlığında ve gri renkte alt kenarlık */
+}
+
+.nav.flex-column .nav-item:last-child {
+    border-bottom: none; /* Sonuncu öğeden sonra kenarlık yok */
+}
+
+/* ... diğer stil kodları ... */
